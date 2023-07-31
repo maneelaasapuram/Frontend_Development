@@ -1,9 +1,116 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+<title>HTML Tags</title>
     </head>
     <body>
-       This is the sample website. 
+        <h1>Table</h1>
+<!--Table-->
+
+<table border="1">
+<tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Gender</th>
+    <th>Address</th>
+    <th>Grade</th>
+    <th>Total</th>
+</tr>
+<tr>
+    <td>Maneela</td>
+    <td>maneela@gmail.com</td>
+    <td>1234567890</td>
+    <td rowspan="2">Female</td>
+    <td>3421 main street</td>
+    <td>A</td>
+    <td>100</td>
+</tr>
+<tr>
+    <td>Reethu</td>
+    <td>reethu@gmail.com</td>
+    <td>4532678902</td>
+    <td>1234 main street</td>
+    <td>B</td>
+    <td>95</td>
+</tr>
+<tr>
+    <td>John</td>
+    <td>john@gmail.com</td>
+    <td>7654328976</td>
+    <td>Male</td>
+    <td>4532 main street</td>
+    <td rowspan="2">C</td>
+    <td rowspan="3">90</td>
+</tr>
+<tr>
+    <td>Laila</td>
+    <td>laila@gmail.com</td>
+    <td>8765439043</td>
+    <td>Female</td>
+    <td>5436 main street</td>
+</tr>
+<tr>
+    <td colspan="6">Total Score</td>
+    
+</tr>
+
+</table>
+<br>
+<h1>Form</h1>
+<!--Form-->
+<form>
+    <label for="FirstName">First Name</label>
+    <input type="text" id="FirstName" name="FirstName">
+   <br>
+   <br>
+    <label for="LastName">Last Name</label>
+    <input type="text" id="LastName" name="LastName">
+    <br><br>
+    <label for="Email">Email Id</label>
+    <input type="email" id="Email" name="Email">
+    <br><br>
+    <label for="Password">Password</label>
+    <input type="Password" id="Password" name="Password">
+    <br><br>
+    <label for="gender">Gender</label>
+    <input type="radio" id="Female" name="gender">
+    <label for="Female">Female</label>
+    <input type="radio" id="Male" name="gender">
+    <label for="Male">Male</label>
+    <br><br>
+    <label for="PhoneNo">Phone Number</label>
+    <input type="tel" id="PhoneNo" name="PhoneNo">
+    <br><br>
+    <label>Hobbies :</label>
+    <input type="checkbox" id="Drawing" name="Drawing">
+    <label for="Drawing">Drawing</label>
+    <input type="checkbox" id="Singing" name="Singing">
+    <label for="Singing">Singing</label>
+    <input type="checkbox" id="Dancing" name="Dancing">
+    <label for="Dancing">Dancing</label>
+   <br><br>
+   <label>Expereince</label>
+   <select name="Experience" id="Experience">
+    <option>8</option>
+    <option>7</option>
+    <option>6</option>
+    <option>5</option>
+    <option>4</option>
+   </select>
+<br><br>
+   <label for="Date">Date Of Birth</label>
+   <input type="date" id="Date" name="Date"> 
+<br><br>
+<label for="Time">Time</label>
+<input type="time" id="Time" name="Time">
+<br><br>
+<label for="comments">Comments</label>
+<textarea id="comments" name="comments"></textarea>
+<br><br>
+<button type="submit">Submit</button>
+<button type="reset">Cancel</button>
+
+</form>
     </body>
 </html>
