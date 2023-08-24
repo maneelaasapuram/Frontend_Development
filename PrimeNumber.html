@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Print Prime Number</title>
+
+        <script>
+            function PrimeNumber()
+        {
+                for(let i =1; i<= 10; i++ ){
+                   let count = 0;
+                for(let j=1; j<=i; j++){
+
+                    if(i%j == 0){
+                        count++;
+                    }
+                }
+                 if(count ==2){
+                 console.log(i);
+                  }
+                }
+        }
+        console.log(PrimeNumber());
+        </script>
+    </head>
+    <body>
+<h1>Prime Number</h1>
+<p>Prime numbers are those numbers that has divisable by 1 and itself.
+    Like it has maximun divisable count is 2.
+</p>
+    </body>
+</html>
