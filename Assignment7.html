@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Print array data in decrement</title>
+    <script>
+        //Print array data in decrement using for loop
+        const num = [1,2,3,4,5];
+
+        console.log("for-loop Initial array is");
+        var i;
+        //for 
+        for(i=0; i<num.length; i++)
+        {
+            console.log(num[i]);
+        }
+        //decrement array
+        console.log("decrement array is")
+        for(i=num.length-1; i>=0; i--)
+        {
+            console.log(num[i]);
+        }
+
+        //while
+        console.log("while loop-Display the original array")
+        var i=0;
+        while(i<num.length)
+        {
+          console.log(num[i]);
+          i++;
+        }
+        //decrement array
+        console.log("Decerement array")
+        var i=num.length-1;
+        while(i>=0)
+        {
+            console.log(num[i]);
+            i--;
+        }
+
+        //do while
+        console.log("do-while display original array");
+       var i=0;
+        do{
+           console.log(num[i]);
+           i++;
+        }
+        while(i<num.length);
+
+        ///decrement array
+        console.log("Decrement array");
+        var i = num.length -1;
+        do{
+      console.log(num[i]);
+      i--;
+        }
+        while(i>=0);
+    </script>
+</head>
+
+<body>
+<h1>Array</h1>
+<p>It can store multiple values and elements in one variable. 
+    These values should be in any data type that can store a string, number,
+     boolean and other.</p>
+<h1>For loop</h1>
+<p>loop can execute a block of code a number of times. It consists of three
+    operational expressions, enclosed with parenthesis and seperated by 
+    semicolon. 
+</p>
+<h1>While loop</h1>
+<p>while statement creates a loop that executes a specified condition is 
+    true</p>
+    <h1>do while</h1>
+    <p>It creates a loop that executes the code block once before checking if the 
+        condition is true, then it will repeat the loop as long as the 
+        condition is true.
+    </p>
+</body>
+</html>
